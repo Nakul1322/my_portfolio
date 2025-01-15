@@ -1,8 +1,5 @@
 # Portfolio
 
-![Portfolio Demo](https://github.com/yourusername/portfolio/assets/your-asset-id/portfolio-demo)
-![Portfolio Mobile](https://github.com/yourusername/portfolio/assets/your-asset-id/portfolio-mobile)
-
 I created this portfolio to showcase my skills, projects, and experiences. However, I decided to share it as an open-source resource to inspire and assist others in building their own portfolios. Feel free to customize the design and components to suit your style and personal branding.
 
 ## License and Attribution
@@ -20,7 +17,7 @@ All projects and experiences featured in this portfolio are my own work. Please 
 
 ## Live Demo
 
-Check out the live demo [here](https://yourportfolio.live/).
+Check out the live demo [here]([https://yourportfolio.live/](https://my-portfolio-nakulsharma1322-gmailcoms-projects.vercel.app/)).
 
 ## Getting Started
 
