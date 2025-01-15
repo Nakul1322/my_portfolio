@@ -17,7 +17,7 @@ All projects and experiences featured in this portfolio are my own work. Please 
 
 ## Live Demo
 
-Check out the live demo [here]([https://yourportfolio.live/](https://my-portfolio-nakulsharma1322-gmailcoms-projects.vercel.app/)).
+Check out the live demo [here]([https://my-portfolio-nakulsharma1322-gmailcoms-projects.vercel.app/]).
 
 ## Getting Started
 
