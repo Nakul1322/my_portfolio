@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo, logotext } from '../assets';
+import { close, menu, logo, logotext, githubB } from '../assets'; // Import your GitHub icon
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -25,9 +25,6 @@ const Navbar = () => {
             alt="logo"
             className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
           />
-
-          {/* if you have text you want besides your logo it comes here.
-          Otherwise delete this if you don't need it. */}
           <img
             src={logotext}
             alt="logo"
@@ -46,6 +43,20 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className="text-eerieBlack hover:text-taupe text-[21px] font-medium font-mova uppercase tracking-[3px] cursor-pointer">
+            <a
+              href="https://github.com/nakul1322"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2">
+              <img
+                src={githubB} // Your GitHub icon
+                alt="GitHub"
+                className="w-[24px] h-[24px] object-contain"
+              />
+              GitHub
+            </a>
+          </li>
         </ul>
 
         {/* mobile */}
@@ -53,9 +64,7 @@ const Navbar = () => {
           {toggle ? (
             <div
               className={`p-6 bg-flashWhite opacity-[0.98] absolute 
-                top-0 left-0 w-screen h-[100vh] z-10 menu ${
-                  toggle ? 'menu-open' : 'menu-close'
-                }`}>
+                top-0 left-0 w-screen h-[100vh] z-10 menu ${toggle ? 'menu-open' : 'menu-close'}`}>
               <div className="flex justify-end">
                 <img
                   src={close}
@@ -82,6 +91,20 @@ const Navbar = () => {
                     <a href={`#${nav.id}`}>{nav.title}</a>
                   </li>
                 ))}
+                <li className="text-eerieBlack text-[88px] font-bold font-arenq uppercase tracking-[1px] cursor-pointer">
+                  <a
+                    href="https://github.com/nakul1322"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2">
+                    <img
+                      src={githubB} // Your GitHub icon
+                      alt="GitHub"
+                      className="w-[50px] h-[50px] object-contain"
+                    />
+                    GitHub
+                  </a>
+                </li>
               </ul>
             </div>
           ) : (
